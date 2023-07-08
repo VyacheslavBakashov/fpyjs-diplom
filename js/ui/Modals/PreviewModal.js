@@ -46,7 +46,6 @@ class PreviewModal extends BaseModal {
         });
       } else if (target.classList.contains('download')) {
         const fileUrl = target.dataset.file;
-        console.log(fileUrl);
         Yandex.downloadFileByUrl(fileUrl);
       }
     });

@@ -76,18 +76,13 @@ class Yandex {
    * Метод скачивания файлов
    */
   static downloadFileByUrl(path) {
-
-
     let a = document.createElement('a');
-    a.href = path.href;
-
-    console.log(path)
+    a.href = path;
+    console.log(path);
     a.click();
 
 
   }
-
-
 
 
   // static createFolder(path, callback) {
